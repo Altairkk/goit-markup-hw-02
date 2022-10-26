@@ -1,3 +1,9 @@
+:root {
+ --accent-color: 
+ --main-font: 'Roboto', sans-serif;    
+ --secondary-font: 'Raleway', sans-serif;
+}
+
 .link {
     text-decoration: none;
 }
@@ -5,8 +11,25 @@
 .list {
     list-style: none;
 }
+
+body {
+    font-family: var(--main-font);  
+}
+/* ============  COMPONENTS   ========== */
+
+/* ============  /COMPONENTS  ========== */
+
+/* ============  HEADER  ========== */
+.logo-link {
+font-family: var(--secondary-font);
+font-size: 26px;
+line-height: 1,19
+letter-spacing: 0.03em;
+color: #2196F3;
+
+}
 .menu-link {
-    font-family: 'Roboto', sans-serif;
+    
     font-weight: 500;
     font-size: 14px;
     line-height: 1,14;
@@ -21,7 +44,7 @@
 }
 
 .social-network {
-font-family: 'Roboto', sans-serif;
+
 font-weight: 500;
 font-size: 14px;
 line-height: 1,14;
@@ -35,7 +58,7 @@ color: #757575;
     color: #2196F3;
 }
 .phone-number {
-font-family: 'Roboto', sans-serif;
+
 font-weight: 500;
 font-size: 14px;
 line-height: 1,14;
@@ -48,9 +71,11 @@ color: #757575;
 .phone-number:focus {
     color: #2196F3;
 }
+/* ============  /HEADER  ========== */
 
-.hero {
-font-family: 'Roboto', sans-serif;
+/* ============  HERO ========== */
+.hero-title {
+
 font-weight: 900;
 font-size: 44px;
 line-height: 1,36;
@@ -63,7 +88,7 @@ color: ;
 }
 
 .modal-button {
-    font-family: 'Roboto', sans-serif;
+    font-family: var(--main-font);
     font-weight: 700;
     font-size: 16px;
     line-height: 1,88;
@@ -78,3 +103,7 @@ color: ;
     cursor: pointer;
     color: #FFFFFF;   
 }
+.display-none {
+    display: none;
+}
+/* ============  /HERO ========== */
